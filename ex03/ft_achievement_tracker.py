@@ -8,8 +8,8 @@ achievements = ["Crafting Genius", "Strategist", "World Savior",
 
 
 def gen_player_achievement() -> set:
-    player_achieve = random.sample(achievements, 
-                                random.randrange(0, len(achievements)))
+    player_achieve = random.sample(achievements,
+                                   random.randrange(0, len(achievements)))
     return set(player_achieve)
 
 
